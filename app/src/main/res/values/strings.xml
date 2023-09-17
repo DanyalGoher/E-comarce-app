@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="department">Department</string>
+    <string name="bscs">BSCS</string>
+    <string name="button">Button</string>
+    <string name="mobile_aplication_development">Mobile Aplication Development</string>
+    <string name="cource">Cource</string>
+    <string name="more_data">More data</string>
+    <string name="_20024119_013">20024119-013</string>
+    <string name="rollno">RollNo :</string>
+    <string name="danyalgoher">DanyalGoher</string>
+    <string name="name">name :</string>
+    <string name="todo">TODO</string>
+    <string name="back">Back</string>
+    <string name="cource1">cource :</string>
+    <string name="course">course</string>
+    <string name="Department">Department :</string>
+    <string name="coursee">course :</string>
+    <string name="student_data">...Student Data...</string>
+    <string name="mobile_aplication_development_assignment_1">mobile_aplication_development(Assignment-1)</string>
+    <string name="mobile_aplication_development_assignment">mobile aplication development assignment 1</string>
+    <string name="quick_chat">Quick Chat</string>
+    <string name="get_started">Get Started</string>
+    <string name="submit">Submit</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="skip"><u>Skip</u></string>
+
+    <string name="naigationopen">open navigation drawer</string>
+    <string name="naigationlose">lose navigation drawer</string>
+    <string name="hello">hello</string>
+    <string name="_10_43am">10:43Am</string>
+
+    <style name="Theme.LogSignSQLPractice" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

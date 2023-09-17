@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/items"
+        tools:ignore="UselessParent">
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/imageview1"
+            android:layout_width="80dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            app:cardCornerRadius="0dp">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:contentDescription="todo"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher_round" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@id/imageview1"
+            android:text="Brijesh"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textview"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/imageview1"
+            android:text="How are you"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <ToggleButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/toggle_seleter"
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

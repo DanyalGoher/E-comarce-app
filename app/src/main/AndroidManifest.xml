@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="shoesU"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Assignment_1"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".otherAtivities.orderDone"
+            android:exported="false" />
+        <activity
+            android:name=".bag.bag2"
+            android:exported="false" />
+        <activity
+            android:name=".otherAtivities.Indoor"
+            android:exported="false" />
+        <activity
+            android:name=".otherAtivities.order"
+            android:exported="false" />
+        <activity
+            android:name=".otherAtivities.About_us"
+            android:exported="false" />
+        <activity
+            android:name=".find.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bag.bag"
+            android:exported="false" />
+        <activity
+            android:name=".otherAtivities.options"
+            android:exported="false" />
+        <activity
+            android:name=".database.passReset"
+            android:exported="false" />
+        <activity
+            android:name=".otherAtivities.ProductDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".otherAtivities.home"
+            android:exported="false" />
+        <activity
+            android:name=".intro.intro3"
+            android:exported="false" />
+        <activity
+            android:name=".intro.intro2"
+            android:exported="false" />
+        <activity
+            android:name=".database.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".database.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".otherAtivities.MobileNumber"
+            android:exported="false" />
+        <activity
+            android:name=".intro.intro"
+            android:exported="false" />
+        <activity
+            android:name=".intro.splash"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
